@@ -1,0 +1,34 @@
+package com.jason.filter;
+
+
+//import javax.servlet.*;
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletResponse;
+//import javax.servlet.http.HttpSession;
+//import java.io.IOException;
+
+public class LoginFilter{
+
+
+//    @Override
+//    public void init(FilterConfig filterConfig) throws ServletException {
+//
+//    }
+//
+//    @Override
+//    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+//        HttpServletRequest request=(HttpServletRequest)servletRequest;
+//        HttpServletResponse response=(HttpServletResponse)servletResponse;
+//        HttpSession session=request.getSession();
+//        if(session.getAttribute("userinfo")==null&&request.getRequestURI().indexOf("/user/login,do")==-1){
+//            response.sendRedirect(request.getContextPath()+"/user/login.do");
+//        }else{
+//            filterChain.doFilter(request,response);
+//        }
+//    }
+//
+//    @Override
+//    public void destroy() {
+//
+//    }
+}
